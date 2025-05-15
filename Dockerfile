@@ -1,5 +1,5 @@
 # Etapa 1: Build
-FROM rust:1.74 as builder
+FROM rust:latest as builder
 
 # Crea directorio de trabajo
 WORKDIR /app
